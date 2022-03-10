@@ -1,0 +1,47 @@
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  visibility: visible;
+  transition: 1s ease-in;
+}
+.preloader.done {
+  opacity: 0;
+  visibility: hidden;
+}
+svg {
+  animation: fill 0.5s linear forwards 1.2s;
+}
+path {
+  stroke-dasharray: 2027px;
+  stroke-dashoffset: 2027px;
+  animation: lineAnim 3.5s linear forwards;
+}
+
+@keyframes lineAnim{
+  to{
+    stroke-dasharray: 2027px;
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes fill {
+  from {
+    fill: transparent;
+    box-shadow: none;
+  }
+  to{
+    /* fill: white; */
+    fill: #000;
+  }
+}
+
+
+

@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+   
+   <div id="preloader" class="preloader">
+      <div class="loader">
+         <svg width="366" height="118" viewBox="0 0 366 118" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M24.376 114H26.9643L28.0248 111.639L39.0603 87.072H90.0438L101.079 111.639L102.14 114H104.728H115.96H122.187L119.598 108.337L73.5179 7.53694L72.4496 5.19998H69.88H59.368H56.7985L55.7301 7.53694L9.65013 108.337L7.06131 114H13.288H24.376ZM209.579 106.323L209.588 106.317C217.147 100.788 220.875 92.8628 220.875 83.072C220.875 75.6149 218.837 69.1645 214.462 64.0782C212.046 61.1508 209.073 58.8345 205.612 57.0904C207.526 55.5278 209.209 53.7243 210.643 51.6761C213.972 46.966 215.547 41.3786 215.547 35.12C215.547 25.6942 211.9 18.0608 204.543 12.7357C197.458 7.53724 187.815 5.19998 176.123 5.19998H132.635H128.635V9.19998V110V114H132.635H179.003C191.865 114 202.262 111.645 209.579 106.323ZM191.935 25.9861L191.959 26.003L191.983 26.0196C195.197 28.2555 196.891 31.4665 196.891 36.272C196.891 41.0664 195.201 44.3489 191.959 46.6849C188.477 49.0966 183.125 50.56 175.403 50.56H147.291V21.984H175.403C183.123 21.984 188.462 23.4948 191.935 25.9861ZM241.197 5.19998H237.197V9.19998V110V114H241.197H251.853H255.853V110V9.19998V5.19998H251.853H241.197ZM361.37 100.784V96.784H357.37H297.237L358.779 19.0264L359.642 17.9354V16.544V9.19998V5.19998H355.642H275.722H271.722V9.19998V18.416V22.416H275.722H333.252L271.581 100.17L270.714 101.262V102.656V110V114H274.714H357.37H361.37V110V100.784ZM46.5284 70.432L64.552 30.0933L82.5757 70.432H46.5284ZM197.088 93.2798C193.432 95.717 187.544 97.216 178.859 97.216H147.291V67.344H178.859C187.643 67.344 193.522 68.8806 197.108 71.3531C200.426 73.6404 202.219 77.0286 202.219 82.208C202.219 87.6748 200.371 91.0908 197.088 93.2798Z" stroke="black" stroke-width="8"></path>
+            </svg>
+      </div>
+   </div>
+   
+   <div class="wrapper" id="app">
+      <!-- banner -->
+      <div class="banner">
+         <div class="container-lg banner__content d-flex justify-content-between align-items-center">
+            <div class="banner__content--text">
+               <a href="#!" class="banner--logo d-lg-none d-md-block">
+                  <img src="img/logo-white.svg" alt="">
+                  <span>Furniking</span>
+               </a>
+               <div class="banner--text d-none d-lg-flex ">Welcome to our online shop</div>
+            </div>
+            <div class="banner__content--links d-flex">
+               <a href="#!" class="banner--lang d-flex flex-row-reverse icon-chevron-down">English (USD)</a>
+               <ul class="lang-menu">
+                  <li><a href="#!">Rus (RUB)</a></li>
+                  <li><a href="#!">UZB (UZS)</a></li>
+               </ul>
+               <div class="banner--reg ">
+                  <a href="#!">Log in</a>
+                  <span> or </span>
+                  <a href="#!">Sign up</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- banner end -->
+      
+      <!-- navbar -->
+      <nav class="navbar">
+         <div class="container-lg navbar-content d-flex justify-content-between align-items-center">
+            <div class="navbar-brand">
+               <a href="#!" class="brand--logo justify-content-center align-items-center">
+                  <img src="img/logo.svg" alt="">
+                  <span>Furniking</span>
+               </a>
+               <div class="collections-list">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+               </div>
+            </div>
+            <form action="#!" class="navbar-form d-sm-flex d-none align-items-center">
+               <input type="text" placeholder="Search here">
+               <div class="dropdown d-flex align-items-center h-100">
+                  <a class="icon-chevron-down d-flex flex-row-reverse">Categories</a>
+                  <ul class="dropdown-menu d-none">
+                    <li><a class="dropdown-item" href="#">Действие</a></li>
+                    <li><a class="dropdown-item" href="#">Другое действие</a></li>
+                    <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                  </ul>
+               </div>
+               <a href="#!" class="navbar-form-search"><img src="img/icons/search.svg" alt=""></a>
+            </form>
+            <div class="navbar__icons">
+               <a href="#!" class="navbar__icon--bag">
+                  <img src="img/icons/icon shop.svg" alt="">
+                  <span></span>
+               </a>
+               <a href="#!" class="navbar__icon--notif">
+                  <img src="img/icons/Notification.svg" alt="">
+               </a>
+               <a href="#!" class="navbar__icon--user">
+                  <img src="img/icons/user.svg" alt="">
+               </a>
+            </div>
+         </div>
+      </nav>
+      <!-- navbar end -->
+
+      <!-- header -->
+      <header class="header">
+      <div class="header__top">
+         <div class="container-lg header__top--content d-none d-lg-flex align-items-center ">
+            <a href="#!" class="header__collections d-flex align-items-center ">
+               <div class="collections-list">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+               </div>
+               <p>All Collections</p>
+            </a>
+            <ul class="header__navbar d-flex justify-content-between align-items-center  ">
+               <li><a href="#!">home</a></li>
+               <li><a href="#!">shop</a></li>
+               <li><a href="#!">blog</a></li>
+               <li><a href="#!">about</a></li>
+               <li><a href="#!">contact us</a></li>
+            </ul>
+         </div>
+      </div>
+      <div class="header__content container-lg">
+         <ul class="collections__list d-none d-lg-block">
+            <li><a href="#!">All</a></li>
+            <li><a href="#!">New Arrivals</a></li>
+            <li><a href="#!">Hot Sale</a></li>
+            <li><a href="#!">Furniture</a></li>
+            <li><a href="#!">Amrature</a></li>
+            <li><a href="#!">Tabble</a></li>
+            <li><a href="#!">Chair</a></li>
+            <li><a href="#!">Sofa</a></li>
+            <li><a href="#!">Mirrors</a></li>
+            <li><a href="#!">Stools</a></li>
+            <li><a href="#!">Benches</a></li>
+         </ul>
+         <main id="carouselExampleIndicators" class="carousel slide header__slider d-flex">
+            <div class="header__slider--content d-flex justify-content-lg-center justify-content-between align-items-center ">
+               <article class="slider__text d-flex flex-column">
+                  <p>TOP COLLECTIONS 2022</p>
+                  <h1>We Serve Your Dream <span>Furniture <small></small></span></h1>
+                  <p>Get 50% off all products</p>
+                  <a href="#!" class="shop-btn">SHOP NOW</a>
+               </article>
+               <div class="slider__img d-none d-sm-flex">
+                  <img src="img/header/main-big.png" alt="">
+               </div>
+               <main class="slider__items d-lg-flex d-none flex-column justify-content-center
+               align-items-center">
+                  <article class="items__info">
+                     <img src="img/header/item1.png" alt="">
+                     <p><span>$</span>120</p>
+                     <small>Office Desk Chair</small>
+                  </article>
+                  <article class="items__info">
+                     <img src="img/header/item2.png" alt="">
+                     <p><span>$</span>180</p>
+                     <small>Home Alisa Sofa</small>
+                  </article>
+                  <article class="items__info">
+                     <img src="img/header/item3.png" alt="">
+                     <p><span>$</span>250</p>
+                     <small>Modern Chair</small>
+                  </article>
+               </main>
+            </div>
+         </main>
+      </div>
+      </header>
+      <!-- header end -->
+      
+      <!-- service -->
+      <section class="service">
+         <main class="service__content container-lg d-flex flex-wrap justify-content-sm-between justify-content-center align-items-center">
+            <article class="service__content--cards">
+               <div class="service__cards--img">
+                  <img src="img/icons/shipping.svg" alt="">
+               </div>
+               <div class="service__cards--text">
+                  <p>Free Shipping</p>
+                  <small>Orders over $100</small>
+               </div>
+            </article>
+            <article class="service__content--cards">
+               <div class="service__cards--img">
+                  <img src="img/icons/gift.svg" alt="">
+               </div>
+               <div class="service__cards--text">
+                  <p>Smart Gift Card</p>
+                  <small>Buy $1000 to get card</small>
+               </div>
+            </article>
+            <article class="service__content--cards">
+               <div class="service__cards--img">
+                  <img src="img/icons/money.svg" alt="">
+               </div>
+               <div class="service__cards--text">
+                  <p>Quick Payment</p>
+                  <small>100% secure payment</small>
+               </div>
+            </article>
+            <article class="service__content--cards">
+               <div class="service__cards--img">
+                  <img src="img/icons/support.svg" alt="">
+               </div>
+               <div class="service__cards--text">
+                  <p>24/7 Support</p>
+                  <small>Quick support</small>
+               </div>
+            </article>
+         </main>
+      </section>
+      <!-- service end -->
+      
+      <!-- collections -->
+      <section class="collections"> 
+         <main class="collections__content container-lg">
+            <div class="row">
+               <div class="col-lg-6 col-md-12 p-0">
+                  <article class="collections__card">
+                     <div class="collection__card--img">
+                        <img src="img/header/bg1.png" alt="">
+                     </div>
+                     <div class="collection__card--text">
+                        <h2>Modern Furniture Collections</h2>
+                        <p>Starting from <span>$500</span></p>
+                        <a href="#!" class="icon-arrow-right d-flex flex-row-reverse align-items-center">Read more</a>
+                     </div>
+                  </article>
+               </div>
+               <div class="col-lg-6 col-md-12 p-0">
+                  <div class="row">
+                     <div class="col-lg-12 col-md-6 col-sm-12 p-0">
+                        <article class="collections__card">
+                           <div class="collection__card--img">
+                              <img src="img/header/bg2.png" alt="">
+                           </div>
+                           <div class="collection__card--text">
+                              <h2>Geometric Bookcase</h2>
+                              <p>Up to 20% discount</p>
+                              <a href="#!" class="icon-arrow-right d-flex flex-row-reverse align-items-center">Read more</a>
+                           </div>
+                        </article>
+                     </div>
+                     <div class="col-lg-12 col-md-6 col-sm-12 p-0">
+                        <article class="collections__card">
+                           <div class="collection__card--img">
+                              <img src="img/header/bg3.png" alt="">
+                           </div>
+                           <div class="collection__card--text">
+                              <h2>Minimal Sofa collections </h2>
+                              <p>Sale upto 40% discount</p>
+                              <a href="#!" class="icon-arrow-right d-flex flex-row-reverse align-items-center">Read more</a>
+                           </div>
+                        </article>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </main>
+      </section>
+      <!-- collections end -->
+      
+      <!-- products treding -->
+      <section class="products trending">
+         <div class="section-title">
+            <h1>TRENDING</h1>
+            <ul class="products-list">
+               <li v-for="items in categories"><a href="#!">{{ items.listItem }}</a></li>
+            </ul>
+         </div>
+         <div class="container-lg">
+            <main class="row products__content">
+               <article v-for="product in tProducts" class="products__card d-flex flex-column col-lg-3 col-md-4 col-sm-12">
+                  <div class="products__card--img">
+                     <img :src="product.imgage" alt="">
+                     <span class="img--type" :class="product.type = product.type"></span>
+                     <div class="img--links d-flex flex-column">
+                        <a href="#!" class="link--heart">
+                           <img src="img/icons/heart.svg" alt="">
+                        </a>
+                        <a href="#!" class="link--cart">
+                           <img src="img/icons/shop.svg" alt="">
+                        </a>
+                        <a href="#!" class="link--reset">
+                           <img src="img/icons/restart.svg" alt="">
+                        </a>
+                        <a href="#!" class="link--eye">
+                           <img src="img/icons/eay.svg" alt="">
+                        </a>
+                     </div>
+                  </div>
+                  <div class="products__card--info d-flex flex-column">
+                        <small class="card--category">{{product.cardCategory}}</small>
+                        <h2 class="name">{{product.name}}</h2>
+                        <div class="price--items d-flex justify-content-between align-items-center">
+                           <div class="price d-flex">
+                              <span>{{product.actualPrice}}</span>
+                              <span>{{product.oldPrice}}</span>
+                           </div>
+                           <div class="ratings d-flex align-items-center">
+                              <a href="#!" class="icon-star"></a>
+                              <a href="#!" class="icon-star"></a>
+                              <a href="#!" class="icon-star"></a>
+                              <a href="#!" class="icon-star"></a>
+                              <a href="#!" class="icon-star"></a>
+                           </div>
+                        </div>
+                  </div>
+               </article>
+            </main>
+         </div>
+      </section>
+      <!-- products end -->
+      
+      <!-- offer -->
+      <section class="offer">
+         <div class="section-title">
+            <h1>SPECIAL OFFER</h1>
+         </div>
+         <main class="container-lg">
+            <div class="row">
+               <article v-for="card in offerCard" class="offer__card col-lg-6 col-md-12">
+                  <div class="offer__card--img">
+                     <img :src="card.photo" alt="">
+                  </div>
+                  <div class="offer__card--info d-flex flex-column">
+                     <div class="offer-text">
+                        <h3>{{card.name}}</h3>
+                        <p>{{card.text}}</p>
+                     </div>
+                     <div class="price offer-price d-flex justify-content-between align-items-center flex-wrap">
+                        <div class="price--items">
+                           <span>{{card.newPrice}}</span>
+                           <span>{{card.oldPrice}}</span>
+                        </div>
+                        <a href="#!" class="shop-btn">shop now</a>
+                     </div>
+                     <div class="offer__time d-flex align-items-center">
+                        <div class="offer__time--day">10 <span>days</span></div>
+                        <div class="offer__time--hour">15 <span>hrs</span></div>
+                        <div class="offer__time--min">30 <span>min</span></div>
+                        <div class="offer__time--ms">22 <span>secs</span></div>
+                     </div>
+                  </div>
+               </article>
+            </div>
+         </main>
+      </section>
+      <!-- offer end -->
+      
+      <!-- products -->
+      <section class="products">
+         <div class="section-title">
+            <h1>OUR PRODUCTS</h1>
+            <ul class="products-list">
+               <li v-for="items in categories"><a href="#!">{{ items.listItem }}</a></li>
+            </ul>
+         </div>
+         <div class="container-lg">
+            <main class="row products__content">
+               <article v-for="product in products" class="products__card d-flex flex-column col-lg-3 col-md-4 col-sm-12">
+                  <div class="products__card--img">
+                     <img :src="product.imgage" alt="">
+                     <span class="img--type" :class="product.type = product.type"></span>
+                     <div class="img--links d-flex flex-column">
+                        <a href="#!" class="link--heart">
+                           <img src="img/icons/heart.svg" alt="">
+                        </a>
+                        <a href="#!" class="link--cart">
+                           <img src="img/icons/shop.svg" alt="">
+                        </a>
+                        <a href="#!" class="link--reset">
+                           <img src="img/icons/restart.svg" alt="">
+                        </a>
+                        <a href="#!" class="link--eye">
+                           <img src="img/icons/eay.svg" alt="">
+                        </a>
+                     </div>
+                  </div>
+                  <div class="products__card--info d-flex flex-column">
+                        <small class="card--category">{{product.cardCategory}}</small>
+                        <h2 class="name">{{product.name}}</h2>
+                        <div class="price--items d-flex justify-content-between align-items-center">
+                           <div class="price d-flex">
+                              <span>{{product.actualPrice}}</span>
+                              <span>{{product.oldPrice}}</span>
+                           </div>
+                           <div class="ratings d-flex align-items-center">
+                              <a href="#!" class="icon-star"></a>
+                              <a href="#!" class="icon-star"></a>
+                              <a href="#!" class="icon-star"></a>
+                              <a href="#!" class="icon-star"></a>
+                              <a href="#!" class="icon-star"></a>
+                           </div>
+                        </div>
+                  </div>
+               </article>
+               <div class="product__content--pages w-100 d-flex justify-content-end align-items-center p-0">
+                  <div class="pages--items d-flex justify-content-between align-items-center flex-wrap">
+                     <a href="#!" class="shop-btn next-btn icon-arrow-right d-flex flex-row-reverse">Next page</a>
+                     <div class="pages--items--links d-flex align-items-center justify-content-between">
+                        <span>Page</span>
+                        <span class="d-flex justify-content-center align-items-center">1</span>
+                        <span>of 100</span>
+                        <div class="pages--items--btn d-flex">
+                           <a href="#!" class="prev-page icon-chevron-left"></a>
+                           <a href="#!" class="next-page icon-chevron-right"></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </main>
+         </div>
+      </section>
+      <!-- products end -->
+      
+      <!-- customers -->
+      <section class="customers">
+         <div class="section-title">
+            <h1>What Our Customer Says</h1>
+         </div>
+         <main class="customers__slider container-lg">
+            <ul class="cutsumers__slider--items">
+               <li class="customers--item">
+                  <img src="img/customers.png" alt="">
+                  <p>I like Furniking.com and as compared to other company it's polices and customers support is very good easy to reach., also many time they unable to delivered. The ultricies are pregnant while the quis is suspended. Risus commodo viverra maecenas accumsan lacus vel facilisist amet.</p>
+                  <h4>Angelina Joly</h4>
+                  <span>Co-founder</span>
+               </li>
+               <li class="customers--item">
+                  <img src="img/customers.png" alt="">
+                  <p>I like Furniking.com and as compared to other company it's polices and customers support is very good easy to reach., also many time they unable to delivered. The ultricies are pregnant while the quis is suspended. Risus commodo viverra maecenas accumsan lacus vel facilisist amet.</p>
+                  <h4>Angelina Joly</h4>
+                  <span>Co-founder</span>
+               </li>
+               <li class="customers--item">
+                  <img src="img/customers.png" alt="">
+                  <p>I like Furniking.com and as compared to other company it's polices and customers support is very good easy to reach., also many time they unable to delivered. The ultricies are pregnant while the quis is suspended. Risus commodo viverra maecenas accumsan lacus vel facilisist amet.</p>
+                  <h4>Angelina Joly</h4>
+                  <span>Co-founder</span>
+               </li>
+            </ul>
+            <div class="slider__btn">
+               <button type="button" class="slider--prev icon-chevron-left"></button>
+               <button type="button" class="slider--next icon-chevron-right"></button>
+            </div>
+         </main>
+      </section>
+      <!-- customers end -->
+      
+      <!-- articles -->
+      <section class="articles">
+         <div class="section-title">
+            <h1>Our Latest Articles</h1>
+         </div>
+         <div class="articles__content mt-5 container-lg">
+            <div class="row justify-content-center">
+               <div v-for="card in articles" class="articles__content--card col-lg-5 col-sm-12">
+                  <div class="articles--img">
+                     <img :src="card.img" alt="">
+                  </div>
+                  <div class="articles__info d-flex flex-column justify-content-end">
+                     <div class="articles__info--type  d-flex align-items-center">
+                        <div class="articles__info--bench d-flex justify-content-center align-items-center">
+                           <img src="img/icons/bench.svg" alt="">
+                           <span>{{ card.bench }}</span>
+                        </div>
+                        <p>{{ card.date }}</p>
+                     </div>
+                     <h2>{{ card.name }}</h2>
+                     <a href="#!">Read more</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- articles end -->
+      
+      <!-- footer -->
+      <footer class="footer">
+         <div class="footer__content container-lg d-flex justify-content-between align-items-center">
+            <div class="footer__lists">
+               <div class="row flex-wrap justify-content-between">
+                  <div class="footer__lists--links col-lg-3 col-md-6 col-sm-6">
+                     <div class="footer__socials d-flex flex-column gap-1">
+                        <div class="navbar-brand">
+                           <a href="#!" class="brand--logo align-items-center">
+                              <img src="img/logo.svg" alt="">
+                              <span>Furniking</span>
+                           </a>
+                        </div>
+                        <p>Funking is the a popular Ecommerce site. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                        <ul class="footer__social--links d-flex align-items-center">
+                           <li><a href="#!" class="social--icons icon-facebook"></a></li>
+                           <li><a href="#!" class="social--icons icon-twitter"></a></li>
+                           <li><a href="#!" class="social--icons icon-intagram"></a></li>
+                           <li><a href="#!" class="social--icons icon-pinterest"></a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <ul class="footer__lists--links col-lg-3 col-md-6 col-sm-6">
+                     <p>Help</p>
+                     <li><a href="#!">Privacy Policy</a></li>
+                     <li><a href="#!">Shipping & Delivery</a></li>
+                     <li><a href="#!">Refund Policy</a></li>
+                     <li><a href="#!">Track Your  Order</a></li>
+                  </ul>
+                  <ul class="footer__lists--links col-lg-3 col-md-6 col-sm-6">
+                     <p>Store</p>
+                     <li><a href="#!">Furniture</a></li>
+                     <li><a href="#!">Tabble</a></li>
+                     <li><a href="#!">Sofa</a></li>
+                     <li><a href="#!">Other</a></li>
+                  </ul>
+                  <ul class="footer__lists--links col-lg-3 col-md-6 col-sm-6">
+                     <p>Supports</p>
+                     <li><a href="#!">Feedbcak</a></li>
+                     <li><a href="#!">Contact us</a></li>
+                     <li><a href="#!">Download app</a></li>
+                     <li><a href="#!">Terms conditins</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <hr>
+         <div class="footer__bottom container-lg d-flex flex-wrap-reverse justify-content-center justify-content-sm-between align-items-center p-4">
+            <p class="mb-0">© 2021 Funking - All rights reserved.</p>
+            <ul class="footer__bottom--links d-flex justify-content-between align-items-center mb-0 p-0">
+               <li><a href="#!">Privacy</a></li>
+               <li><a href="#!">Security</a></li>
+               <li><a href="#!">Terms</a></li>
+            </ul>
+         </div>
+      </footer>
+      <!-- footer end -->
+   </div>
+
+
+   <script src="https://unpkg.com/vue@next"></script>
+   <script src="js/vue.js"></script>
+   <script src="js/preloader.js"></script>
+   <script src="js/main.js"></script>
+</body>
+</html>

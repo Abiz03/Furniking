@@ -1,0 +1,84 @@
+/* icons */
+@font-face {
+   font-family: 'icons';
+   src:url('../fonts/icons/fa-light-300.ttf') format('truetype');
+   font-weight: 300;
+}
+@font-face {
+   font-family: 'icons';
+   src:url('../fonts/icons/fa-regular-400.ttf') format('truetype');
+   font-weight: 400;
+}
+@font-face {
+   font-family: 'icons';
+   src:url('../fonts/icons/fa-brands-400.ttf') format('truetype');
+   font-weight: 400;
+}
+@font-face {
+   font-family: 'icons';
+   src:url('../fonts/icons/fa-solid-900.ttf') format('truetype');
+   font-weight: 900;
+}
+
+/* rubik */
+@font-face {
+   font-family: 'rubik';
+   src:url('../fonts/rubik/Rubik-Light.ttf') format('truetype');
+   font-weight: 300;
+}
+@font-face {
+   font-family: 'rubik';
+   src:url('../fonts/rubik/Rubik-Regular.ttf') format('truetype');
+   font-weight: 400;
+}
+@font-face {
+   font-family: 'rubik';
+   src:url('../fonts/rubik/Rubik-Medium.ttf') format('truetype');
+   font-weight: 500;
+}
+@font-face {
+   font-family: 'rubik';
+   src:url('../fonts/rubik/Rubik-SemiBold.ttf') format('truetype');
+   font-weight: 600;
+}
+@font-face {
+   font-family: 'rubik';
+   src:url('../fonts/rubik/Rubik-Bold.ttf') format('truetype');
+   font-weight: 700;
+}
+
+/* mulish */
+@font-face {
+   font-family: 'mulish';
+   src:url('../fonts/mulish/Mulish-Light.ttf') format('truetype');
+   font-weight: 300;
+}
+@font-face {
+   font-family: 'mulish';
+   src:url('../fonts/mulish/Mulish-Regular.ttf') format('truetype');
+   font-weight: 400;
+}
+@font-face {
+   font-family: 'mulish';
+   src:url('../fonts/mulish/Mulish-Medium.ttf') format('truetype');
+   font-weight: 500;
+}
+@font-face {
+   font-family: 'mulish';
+   src:url('../fonts/mulish/Mulish-SemiBold.ttf') format('truetype');
+   font-weight: 600;
+}
+@font-face {
+   font-family: 'mulish';
+   src:url('../fonts/mulish/Mulish-Bold.ttf') format('truetype');
+   font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
